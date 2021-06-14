@@ -1,0 +1,59 @@
+
+.searchlocation {
+    width: 100%;
+    background-color: #6a848f;
+    padding-bottom: 1rem;
+    transition: all ease .5s;
+    &__form {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem 1.5rem 0 1.5rem;
+    }
+    &__form-input{
+        // width: 100%;
+        background-color: #fff;
+        .MuiOutlinedInput-root {
+        }
+        border-radius: 0;
+        flex: 1
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1.5rem;
+    }
+
+    &__loader {
+        margin-top: 1rem;
+    }
+    &__notresults {
+        margin-top: 1rem;
+        p {
+            margin: 0;
+            color: #fff;
+        }
+    }
+}
+
+.searchlocation.hot {
+    background-color: #a09d2a;
+}
+
+.searchlocation.cold {
+    background-color: #3692e2;
+}
+
+.itemsearch {
+    width: 100%;
+    background-color: #fff;
+    padding: 1rem .5rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #6a848f;
+    &__title {
+        margin: 0;
+        text-align: left;
+        
+    }
+}

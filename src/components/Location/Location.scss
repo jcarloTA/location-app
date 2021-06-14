@@ -1,0 +1,69 @@
+
+
+
+.location {
+
+    background-color: #304f62;
+    padding: 1.5rem;
+    transition: all ease .5s;
+    
+    &__title {
+        color: #fff;
+        text-align: left;
+        font-size: 1rem;
+        border-bottom: .5px solid #6fbd93;
+    }
+    &__title-text {
+        color: #fff;
+        margin: 0;
+    }
+    &__degress {
+
+    }
+    &__degress-title {
+        font-size: 5rem;
+        margin: 0;
+        text-align: left;
+        color: #fff;
+    }
+    &__degress-descripcion {
+        margin: 0;
+        text-align: left;
+        color: #fff;
+    }
+    &__degress-humidity {
+        margin: 0;
+        text-align: left;
+        color: #fff;
+    }
+    &__degress-percipitation {
+        margin: 0;
+        margin-top: 2rem;
+        text-align: left;
+        color: #fff;
+    }
+    &__degress-wind {
+        margin: 0;
+        text-align: left;
+        color: #fff;
+    }
+
+    &__button {
+        margin: 5rem 0 0 0;
+        button {
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+    }
+
+    &__alreadysaved {
+        color: red
+    }
+}
+
+.location.hot {
+    background-color: #ecba00;
+}
+.location.cold {
+    background-color: #007fec;
+}

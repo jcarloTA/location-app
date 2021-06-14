@@ -1,0 +1,47 @@
+
+
+
+.favoritelocations {
+    background-color: #6a848f;
+
+    padding-top: 1rem;
+    padding: 1rem;
+
+    &__title {
+        color: #fff;
+        margin: 0;
+    }
+
+    &__item {
+        margin-top: .5rem;
+        background-color: #fff;
+        display: flex;
+        padding-left: .5rem;
+        justify-content: space-between;
+    }
+
+    &__item-text{
+        color: #6fbd93;
+        text-align: left;
+        width: 100%;
+    }
+    &__nolocations{
+        color: #fff;
+    }
+    &__item-text-container{
+        flex:1;
+        text-align: left;
+    }
+
+    &__item-button{
+        background-color: red;
+    }
+}
+
+.favoritelocations.hot {
+    background-color: #a09d2a;
+}
+
+.favoritelocations.cold {
+    background-color: #3692e2;
+}
